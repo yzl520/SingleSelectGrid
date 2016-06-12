@@ -1,5 +1,5 @@
 # 使用场景
-1.当你觉得用GridView去实现单选功能有些麻烦。
+1.当你觉得用GridView去实现单选功能有些麻烦。<br>
 2.当你的单选布局需要与其他可滑动控件（如ListView）嵌套使用，而你又不想花时间解决滑动兼容问题。
 ###效果预览
 ![preview](https://github.com/yzl520/SingleSelectGrid/raw/master/image/preview.png)
