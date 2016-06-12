@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SingleSelectGrid">
+        <attr name="hDivider" format="dimension" />
+        <attr name="vDivider" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="columnNum" format="integer" />
+    </declare-styleable>
+
+</resources>

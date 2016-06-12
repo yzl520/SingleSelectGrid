@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_check_round_corner_bg">
+
+    <ImageView
+        android:id="@+id/ivAreaLogo"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@color/light_gray" />
+
+    <TextView
+        android:id="@+id/tvSelectSeatNum"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivAreaLogo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:singleLine="true"
+        android:text="120"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvAreaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivAreaLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="自定义"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tvAreaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAreaTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:text="啦啦啦"
+        android:textColor="@color/dark_gray"
+        android:textSize="11sp" />
+
+</RelativeLayout>
